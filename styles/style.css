@@ -66,4 +66,27 @@
 .heading-2 {
 	color: #6AC88B;
 	font-weight: lighter;
+	margin-bottom: 50px;
+}
+
+.block-logo {
+	background-color: #e3e3e3;
+	border-radius: 50%;
+	display: inline-block;
+	padding: 50px;
+}
+
+.heading-3 {
+	color: black;
+	font-weight: lighter;
+}
+
+.glyphicon.glyphicon-list-alt {
+	font-size: 300%;
+}
+
+.block-logo:hover {
+  background-color: #6AC88B;
+  color: white;
+  transition: all .3s;
 }
