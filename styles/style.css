@@ -30,6 +30,10 @@
   padding: 10px 15px;
 }
 
+.btn-1 {
+	padding: 6px 6px;
+}
+
 .btn-default {
 	border-color: white;
 	background: #6AC88B;
@@ -101,7 +105,7 @@
 
 .section-3 {
 	padding-top: 50px;
-	padding-bottom: 70px;
+	padding-bottom: 80px;
 	background-color: #f8f8f8;
 }
 
@@ -125,7 +129,7 @@ ol {
 }
 
 .fa.fa-check, .fa.fa-quote-left {
-	margin: 0;
+	  margin: 0;
     color: #6AC88B;
     margin-right: 8px;
 }
@@ -166,5 +170,63 @@ cite {
 	margin-bottom: 40px;
 }
 
+.section-6 {
+	background-color: #373737;
+	padding-top: 90px;
+	padding-bottom: 80px;
+}
 
+.fa.fa-paper-plane {
+	margin: 0 5px;
+}
 
+.btn-success {
+	border-color: #6AC88B;
+}
+
+.form-control {
+	border-color: #6AC88B;
+	border-width: 2px;
+}
+
+.section-7 {
+	padding-top: 90px;
+}
+
+.span-1 {
+	font-size: 46px;
+	color: #6AC88B;
+}
+
+.text-white {
+	color: white;
+}
+
+.panel-success {
+	border-color: #6AC88B;
+}
+
+.bolded {
+	font-weight: bold;
+}
+
+.section-8 {
+	padding-bottom: 100px;
+}
+.panel-success .panel-heading {
+	background-color: #6dbc89;
+}
+
+.section-8 {
+	padding-top: 100px;
+}
+
+.heading-8 {
+	color: #6AC88B;
+	font-weight: lighter;
+	margin-bottom: 50px;
+}
+
+.p-8 {
+	margin-bottom: 35px;
+}
