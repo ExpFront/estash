@@ -1,24 +1,24 @@
-.section-top {
+.section-intro {
 	background-color: #6AC88B;
-	padding-top: 100px;
+	padding-top: 110px;
 }
 
-.heading-1 {
+.h1-intro {
 	color: white;
 	font-size: 2em;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 	font-weight: lighter;
 }
 
-.p-1 {
+.p-intro {
   color: white;
   font-size: 12px;
   line-height: 2.5em;
   margin-bottom: 30px;
 }
 
-.head {
-	margin-top: 150px;
+.logo {
+	margin-bottom: 115px;
 }
 
 .devices {
@@ -26,12 +26,14 @@
 	height: 355px;
 	background-repeat: no-repeat;
 }
+
+
 .btn {
   padding: 10px 15px;
 }
 
-.btn-1 {
-	padding: 6px 6px;
+.btn-subscribe {
+	padding: 11px 10px;
 }
 
 .btn-default {
@@ -63,26 +65,26 @@
 	margin-right: 3px;
 }
 
-.section-2 {
-	margin-top: 80px;
+h2 {
+  color: #6AC88B;
+  font-weight: lighter;
+  margin-top: 90px;
 }
 
-.heading-2 {
-	color: #6AC88B;
-	font-weight: lighter;
+.h2-features  {
 	margin-bottom: 80px;
 }
 
-.block-logo {
+.icon-in {
 	background-color: #e3e3e3;
 	border-radius: 50%;
 	display: inline-block;
 	padding: 50px;
 }
 
-.heading-3 {
+.h3-features {
 	color: black;
-	font-weight: lighter;
+	font-weight: normal;
 }
 
 .fa.fa-flask, .fa.fa-leaf, .fa.fa-globe, .fa.fa-laptop {
@@ -93,30 +95,37 @@
 	margin-bottom: 80px;
 }
 
-.block:hover .block-logo {
+.block:hover .icon-in {
   background-color: #6AC88B;
   color: white;
   transition: all .3s;
 }
 
-.block:hover .heading-3 {
+.block:hover .h3-features {
 	color: #6AC88B;
 }
 
-.section-3 {
-	padding-top: 50px;
-	padding-bottom: 80px;
+.section-awesome {
 	background-color: #f8f8f8;
 }
 
-.heading-4 {
+.h2-awesome, .h2-testimonials, .h2-how, .h2-subscribe, .h2-plan {
 	color: #6AC88B;
 	font-weight: lighter;
 	margin-bottom: 25px;
 }
 
-.p-2 {
+.p-awesome {
 	font-weight: lighter;
+	margin-bottom: 40px;
+}
+
+.p-testimonials {
+	margin-bottom: 45px;
+}
+
+ul {
+	margin-bottom: 40px;
 }
 
 ul, ol {
@@ -136,11 +145,7 @@ ol {
 
 .diagram {
 	background-image: url('../images/background/diagram.png');
-	height: 390px;
-}
-
-.section-4 {
-	padding-top: 85px;
+	height: 350px;
 }
 
 blockquote {
@@ -157,23 +162,28 @@ cite {
 	color: #6AC88B;
 }
 
-.section-5 {
-	padding-bottom: 80px;
-}
-
-.heading-5 {
-	font-size: 16px;
-	margin-bottom: 20px;
-}
-
-.p-3 {
+.row-how {
 	margin-bottom: 40px;
 }
 
-.section-6 {
+.h5-how {
+	font-size: 16px;
+	margin-bottom: 20px;
+	font-weight: normal;
+}
+
+.p-how {
+	margin-bottom: 40px;
+}
+
+.section-subscribe {
 	background-color: #373737;
-	padding-top: 90px;
-	padding-bottom: 80px;
+}
+
+.h2-subscribe {
+	margin-top: 85px;
+	margin-bottom: 35px;
+	color: white;
 }
 
 .fa.fa-paper-plane {
@@ -187,46 +197,54 @@ cite {
 .form-control {
 	border-color: #6AC88B;
 	border-width: 2px;
+	background-color: transparent;
+	padding: 20px 15px; 
 }
 
-.section-7 {
-	padding-top: 90px;
+.input-group-subscribe {
+	margin-bottom: 80px;
 }
 
-.span-1 {
+.h2-plan {
+	margin-bottom: 85px;
+}
+
+.h3-plan {
+	font-weight: normal;
+}
+
+.span-plan {
 	font-size: 46px;
 	color: #6AC88B;
-}
-
-.text-white {
-	color: white;
 }
 
 .panel-success {
 	border-color: #6AC88B;
 }
 
-.bolded {
+.text-bolded {
 	font-weight: bold;
 }
 
-.section-8 {
-	padding-bottom: 100px;
-}
 .panel-success .panel-heading {
 	background-color: #6dbc89;
 }
 
-.section-8 {
-	padding-top: 100px;
-}
-
-.heading-8 {
+.h2-sign {
 	color: #6AC88B;
 	font-weight: lighter;
+	margin-top: 100px;
 	margin-bottom: 50px;
 }
 
-.p-8 {
+.p-sign {
 	margin-bottom: 35px;
+}
+
+.btn-plan {
+	margin-bottom: 100px;
+}
+
+.text-white {
+	color: white;
 }
