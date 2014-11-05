@@ -1,0 +1,54 @@
+h2 {
+  color: #6AC88B;
+  font-weight: lighter;
+  margin-top: 90px;
+}
+
+.h1-intro {
+	color: white;
+	font-size: 2em;
+	margin-bottom: 30px;
+	font-weight: lighter;
+}
+
+.h2-features  {
+	margin-bottom: 80px;
+}
+
+.h3-features {
+	color: black;
+	font-weight: normal;
+}
+
+.h2-awesome, .h2-testimonials, .h2-how, .h2-subscribe, .h2-plan {
+	color: #6AC88B;
+	font-weight: lighter;
+	margin-bottom: 25px;
+}
+
+.h5-how {
+	font-size: 16px;
+	margin-bottom: 20px;
+	font-weight: normal;
+}
+
+.h2-subscribe {
+	margin-top: 85px;
+	margin-bottom: 35px;
+	color: white;
+}
+
+.h2-plan {
+	margin-bottom: 85px;
+}
+
+.h3-plan {
+	font-weight: normal;
+}
+
+.h2-sign {
+	color: #6AC88B;
+	font-weight: lighter;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}

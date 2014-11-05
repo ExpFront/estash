@@ -1,0 +1,23 @@
+.p-intro {
+  color: white;
+  font-size: 12px;
+  line-height: 2.5em;
+  margin-bottom: 30px;
+}
+
+.p-awesome {
+	font-weight: lighter;
+	margin-bottom: 40px;
+}
+
+.p-testimonials {
+	margin-bottom: 45px;
+}
+
+.p-how {
+	margin-bottom: 40px;
+}
+
+.p-sign {
+	margin-bottom: 35px;
+}

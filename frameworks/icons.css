@@ -1,0 +1,51 @@
+.fa {
+	margin-right: 3px;
+}
+
+.icon-in-features, .icon-in-partner {
+	background-color: #e3e3e3;
+	border-radius: 50%;
+	display: inline-block;
+	padding: 50px;
+}
+
+.icon-in-partner {
+	padding: 10px 12px;
+	margin: 0 3px;
+}
+
+.fa.fa-flask, .fa.fa-leaf, .fa.fa-globe, .fa.fa-laptop {
+	font-size: 300%;
+}
+
+.fa.fa-check, .fa.fa-quote-left {
+	  margin: 0;
+    color: #6AC88B;
+    margin-right: 8px;
+}
+
+.fa.fa-circle.active {
+	margin: 25px 10px;
+	color: #6AC88B;
+}
+
+.fa.fa-paper-plane {
+	margin: 0 5px;
+}
+
+.fa.fa-twitter.fa-footer {
+	font-size: 150%;
+}
+
+.fa.fa-google-plus.fa-footer {
+	font-size: 150%;
+}
+
+.fa.fa-facebook.fa-footer {
+	font-size: 150%;
+}
+
+.icon-in-partner:hover {
+	background-color: #6AC88B;
+	color: white;
+}

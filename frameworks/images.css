@@ -1,0 +1,14 @@
+.logo {
+	margin-bottom: 115px;
+}
+
+.devices {
+	background-image: url("../images/background/devices.png");
+	height: 355px;
+	background-repeat: no-repeat;
+}
+
+.diagram {
+	background-image: url('../images/background/diagram.png');
+	height: 350px;
+}

@@ -1,0 +1,44 @@
+.btn {
+  padding: 10px 15px;
+}
+
+.btn-subscribe {
+	padding: 11px 10px;
+}
+
+.btn-default {
+	border-color: white;
+	background: #6AC88B;
+	color: white;
+}
+
+.button-group {
+	margin-bottom: 20px;
+}
+
+.btn-default:hover {
+  background-color: white;
+  border-color: white;
+  color: #6AC88B;
+  transition: .3s;
+}
+
+.btn-focused {
+	background: white;
+	color: #6AC88B;
+}
+
+.btn-focused:hover {
+	border-color: white;
+	color: white;
+	background-color: #6AC88B;
+	transition: .3s;
+}
+
+.btn-success {
+	border-color: #6AC88B;
+}
+
+.btn-plan {
+	margin-bottom: 100px;
+}

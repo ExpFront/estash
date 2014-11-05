@@ -1,0 +1,87 @@
+
+.block {
+	margin-bottom: 80px;
+}
+
+.block:hover .icon-in-partner {
+  background-color: #6AC88B;
+  color: white;
+  transition: all .3s;
+}
+
+.block:hover .h3-features {
+	color: #6AC88B;
+}
+
+ul {
+	margin-bottom: 40px;
+}
+
+ul, ol {
+	padding: 0px;
+}
+
+ol {
+
+  margin: 10px 0;
+}
+
+blockquote {
+	border: none;
+	margin-bottom: 0;
+}
+
+cite {
+	color: #6AC88B;
+}
+
+
+.row-how {
+	margin-bottom: 40px;
+}
+
+.form-control {
+	border-color: #6AC88B;
+	border-width: 2px;
+	background-color: transparent;
+	padding: 20px 15px; 
+}
+
+.input-group-subscribe {
+	margin-bottom: 80px;
+}
+
+.span-plan {
+	font-size: 46px;
+	color: #6AC88B;
+}
+
+.panel-success {
+	border-color: #6AC88B;
+}
+
+.text-bolded {
+	font-weight: bold;
+}
+
+.panel-success .panel-heading {
+	background-color: #6dbc89;
+}
+
+.text-white {
+	color: white;
+}
+
+.row-partner {
+	margin: 20px 0;
+}
+
+.block-partner {
+	height: 60px;
+	width: 140px;
+}
+
+.row-footer {
+	padding-top: 40px;
+	margin-bottom: 45px;
+}
