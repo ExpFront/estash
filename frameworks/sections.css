@@ -1,5 +1,6 @@
 .section-intro {
 	background-image: url('../images/background/intro-background.png');
+	background-attachment: fixed;
 	padding-top: 110px;
 }
 
