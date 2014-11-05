@@ -35,6 +35,10 @@
 	transition: .3s;
 }
 
+.btn-awesome {
+  margin-bottom: 10px;
+}
+
 .btn-success {
 	border-color: #6AC88B;
 }
