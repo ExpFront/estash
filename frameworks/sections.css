@@ -1,5 +1,5 @@
 .section-intro {
-	background-color: #6AC88B;
+	background-image: url('../images/background/intro-background.png');
 	padding-top: 110px;
 }
 
@@ -8,7 +8,7 @@
 }
 
 .section-subscribe {
-	background-color: #373737;
+	background-image: url('../images/background/subsribe-background.png');
 }
 
 .section-partner {
