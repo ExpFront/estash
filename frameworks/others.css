@@ -1,9 +1,7 @@
 body {
-	font-family: 'Lato', sans-serif;
- }
-
-@-ms-viewport {
-  width: device-width;
+	font-family: "Open Sans", Arial, sans-serif;
+	font-weight: 300;
+	line-height: 2;
 }
 
 .block {
@@ -49,6 +47,7 @@ cite {
 
 .form-control {
 	border-color: #6AC88B;
+	color: white;
 	border-width: 2px;
 	background-color: transparent;
 	padding: 20px 15px; 
