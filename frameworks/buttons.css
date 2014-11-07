@@ -26,6 +26,7 @@
 .btn-focused {
 	background: white;
 	color: #6AC88B;
+	margin-right: 15px;
 }
 
 .btn-focused:hover {

@@ -1,5 +1,5 @@
 .fa {
-	margin-right: 3px;
+	margin: 0 5px;
 }
 
 .icon-in-features, .icon-in-partner {
@@ -25,7 +25,6 @@
 }
 
 .fa.fa-circle.active {
-	margin: 25px 10px;
 	color: #6AC88B;
 }
 

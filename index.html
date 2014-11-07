@@ -2,6 +2,7 @@
 <html>
   <head>
 		<title>I've returned</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
 		<link rel="stylesheet" href="styles/bootstrap.min.css">
@@ -101,12 +102,45 @@
       <div class="container">
         <div class="col-xs-12 text-center">
           <h2 class="h2-testimonials">What People Say About US</h2>
-          <blockquote>
-            <p class="p-testimonials text-muted">“Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.”
-          </p>
-          <p class="p-2"><i class="fa fa-quote-left"></i><cite>John Doe</cite> - The Doe Company</p>
-          </blockquote>
-          <i class="fa fa-circle"></i><i class="fa fa-circle active"></i><i class="fa fa-circle"></i>
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+              <!-- Quote 1-->
+              <div class="item active">
+                <blockquote>
+                  <p class="p-testimonials text-muted">“Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.”
+                  </p>
+                  <p class="p-2"><i class="fa fa-quote-left"></i><cite>John Doe</cite> - The Doe Company</p>
+                </blockquote>
+                <i class="fa fa-circle active"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i>
+              </div>
+              <!--/Quote 1-->
+              <!--Quote 2-->
+              <div class="item">
+                <blockquote>
+                  <p class="p-testimonials text-muted">“Настеня, не злись на меня, прости меня:)”
+                  </p>
+                  <p class="p-2"><i class="fa fa-quote-left"></i><cite>Andrew Abarykov</cite> - Her boyfriend:D</p>
+                </blockquote>
+                <i class="fa fa-circle"></i><i class="fa fa-circle active"></i><i class="fa fa-circle"></i>
+              </div>
+              <!--/Quote 2-->
+              <!--Quote 3-->
+              <div class="item">
+                <blockquote>
+                  <p class="p-testimonials text-muted">“Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.”
+                  </p>
+                  <p class="p-2"><i class="fa fa-quote-left"></i><cite>John Doe</cite> - The Doe Company</p>
+                </blockquote>
+                <i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle active"></i>
+              </div>
+              <!--/Quote 3-->
+            </div>
+          </div>
         </div>
       </div>
     </section><!--/.section-testimonials-->
@@ -215,7 +249,7 @@
         <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
           <h2 class="h2-signup">We've got the perfect package for you</h2>
           <p class="p-signup text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum voluptate provident sit nemo sint autem repudiandae, suscipit facilis consectetur, odio laudantium, commodi aut laboriosam nisi modi nihil quam odit neque?</p>
-          <a class="btn btn-default btn-signup text-bolded">SIGN UP NOW</a>
+          <a class="btn btn-default btn-signup">SIGN UP NOW</a>
         </div>
       </div>
     </section><!--/.section-sign-->
@@ -263,5 +297,15 @@
           </div>
         </div>
     </section> <!--/.container-footer-->
+    <script type="text/javascript" src="scripts/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function () {
+      $('#carousel-example-generic').carousel({
+        pause: true,
+        interval: 3000
+      })
+    });
+    </script>
   </body>
 </html>	

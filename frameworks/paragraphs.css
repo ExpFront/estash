@@ -1,7 +1,8 @@
 .p-intro {
   color: white;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 2.5em;
+  letter-spacing: .1em;
   margin-bottom: 30px;
 }
 

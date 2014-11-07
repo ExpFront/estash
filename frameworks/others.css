@@ -1,8 +1,7 @@
 body {
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 300;
-  line-height: 2;
-  min-width: 100%;   
+  line-height: 2; 
 }
 
 .block {
@@ -71,10 +70,6 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 
 .panel-success {
 	border-color: #6AC88B;
-}
-
-.text-bolded {
-	font-weight: bold;
 }
 
 .panel-success .panel-heading {
