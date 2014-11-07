@@ -2,6 +2,7 @@ body {
 	font-family: "Open Sans", Arial, sans-serif;
 	font-weight: 300;
 	line-height: 2;
+	width: 100%;
 }
 
 .block {
@@ -55,6 +56,12 @@ cite {
 
 .input-group-subscribe {
 	margin-bottom: 80px;
+}
+
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {   
+	border-color: #1cbd87;
+	box-shadow: 0 1px 1px #1cbd87 inset, 0 0 8px #1cbd87;
+	outline: 0 none;
 }
 
 .span-plan {
