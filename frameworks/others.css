@@ -68,12 +68,21 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 	color: #6AC88B;
 }
 
-.panel-success {
+.panel:hover {
 	border-color: #6AC88B;
 }
 
-.panel-success .panel-heading {
-	background-color: #6dbc89;
+.panel:hover .panel-heading {
+  background-color: #6dbc89;
+  color: white;
+}
+
+.panel:hover .span-plan {
+	color: white;
+}
+
+.panel-success {
+	border-color: #6AC88B;
 }
 
 .text-white {
@@ -92,8 +101,4 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 .row-footer {
 	padding-top: 40px;
 	margin-bottom: 45px;
-}
-
-.item {
-	height: 250px;
 }
