@@ -18,7 +18,7 @@
 
 .btn-default:hover {
   background-color: white;
-  border-color: white;
+  border-color: #6AC88B;
   color: #6AC88B;
   transition: .3s;
 }
@@ -43,6 +43,6 @@
 	border-color: #6AC88B;
 }
 
-.btn-plan {
+.btn-plan, .btn-signup {
 	margin-bottom: 100px;
 }
