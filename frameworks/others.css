@@ -106,7 +106,7 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 
 @media (max-width: 900px) {
 	.short {
-		margin-bottom: 500px;
+		margin-bottom: 900px;
 	}
 }
 
