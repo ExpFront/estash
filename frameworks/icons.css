@@ -1,16 +1,15 @@
-.fa {
+.fa.fa-cloud-download {
 	margin: 0 5px 0 2px;
 }
 
 .icon-in-features, .icon-in-partner {
 	background-color: #e3e3e3;
-	border-radius: 50%;
 	display: inline-block;
-	padding: 50px;
+	padding: 49px 50px;
 }
 
 .icon-in-partner {
-	padding: 10px 14px;
+	padding: 5px 10px;
 	margin: 0 3px;
 }
 
@@ -24,24 +23,12 @@
     margin-right: 8px;
 }
 
-.fa.fa-circle.active {
-	color: #6AC88B;
-}
-
 .fa.fa-paper-plane {
 	margin: 0 5px;
 }
 
-.fa.fa-twitter {
-	font-size: 110%;
-}
-
-.fa.fa-google-plus {
-	font-size: 110%;
-}
-
 .fa.fa-facebook {
-	font-size: 125%;
+	margin: 0px 3px;
 }
 
 .icon-in-partner:hover {

@@ -12,11 +12,6 @@
 	background-image: url('../images/background/subsribe-background.png');
 }
 
-@media (max-width: 900px) {
-	.section-partner {
-		display: none;
-	}
-}
 .section-partner {
 	background-color: #e3e3e3; 
 }
@@ -27,11 +22,7 @@
 
 .section-features {}
 
-.section-testimonials {
-	box-sizing: padding-box;  
-    -moz-box-sizing: padding-box;  
-    -webkit-box-sizing: padding-box; 
-}
+.section-testimonials {}
 
 .section-how {}
 

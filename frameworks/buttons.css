@@ -6,10 +6,15 @@
 	padding: 11px 10px;
 }
 
-.btn-default {
+.btn-default, .btn-intro {
 	border-color: white;
 	background: #6AC88B;
 	color: white;
+}
+
+.btn-intro {
+	background-color: transparent;
+	margin-right: 5px;
 }
 
 .button-group {
@@ -21,19 +26,6 @@
   border-color: #6AC88B;
   color: #6AC88B;
   transition: .3s;
-}
-
-.btn-focused {
-	background: white;
-	color: #6AC88B;
-	margin-right: 15px;
-}
-
-.btn-focused:hover {
-	border-color: white;
-	color: white;
-	background-color: #6AC88B;
-	transition: .3s;
 }
 
 .btn-awesome {
