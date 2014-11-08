@@ -104,6 +104,12 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 	margin-bottom: 45px;
 }
 
+@media (max-width: 900px) {
+	.short {
+		margin-bottom: 10%;
+	}
+}
+
 .short {
 	margin-bottom: 3.3%;
 }
