@@ -2,13 +2,13 @@
 	margin: 0 5px 0 2px;
 }
 
-.icon-in-features, .icon-in-partner {
+.icon-in-features, .icon-in-footer {
 	background-color: #e3e3e3;
 	display: inline-block;
 	padding: 49px 50px;
 }
 
-.icon-in-partner {
+.icon-in-footer {
 	padding: 5px 10px;
 	margin: 0 3px;
 }
@@ -31,7 +31,7 @@
 	margin: 0px 3px;
 }
 
-.icon-in-partner:hover {
+.icon-in-footer:hover {
 	background-color: #6AC88B;
 	color: white;
 }
