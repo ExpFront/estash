@@ -69,17 +69,25 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 	color: #6AC88B;
 }
 
+.span-footer {
+	display: block;
+	padding-top: 5px;
+}
+
 .panel:hover {
 	border-color: #6AC88B;
+	transition: all .3s;
 }
 
 .panel:hover .panel-heading {
   background-color: #6dbc89;
   color: white;
+  transition: all .3s;
 }
 
 .panel:hover .span-plan {
 	color: white;
+	transition: all .3s;
 }
 
 .panel-success {
@@ -102,10 +110,4 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 .row-footer {
 	padding-top: 40px;
 	margin-bottom: 45px;
-}
-
-.item {
-	    box-sizing: border-box;  
-    -moz-box-sizing: border-box;  
-    -webkit-box-sizing: border-box; 
 }

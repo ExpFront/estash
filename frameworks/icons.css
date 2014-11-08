@@ -10,7 +10,7 @@
 }
 
 .icon-in-partner {
-	padding: 10px 12px;
+	padding: 10px 14px;
 	margin: 0 3px;
 }
 
@@ -32,16 +32,16 @@
 	margin: 0 5px;
 }
 
-.fa.fa-twitter.fa-footer {
-	font-size: 150%;
+.fa.fa-twitter {
+	font-size: 110%;
 }
 
-.fa.fa-google-plus.fa-footer {
-	font-size: 150%;
+.fa.fa-google-plus {
+	font-size: 110%;
 }
 
-.fa.fa-facebook.fa-footer {
-	font-size: 150%;
+.fa.fa-facebook {
+	font-size: 125%;
 }
 
 .icon-in-partner:hover {
