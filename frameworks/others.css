@@ -104,12 +104,8 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 	margin-bottom: 45px;
 }
 
-@media (max-width: 900px) {
-	.short {
-		margin-bottom: 900px;
-	}
-}
-
-.short {
-	margin-bottom: 3.3%;
+.item {
+	    box-sizing: border-box;  
+    -moz-box-sizing: border-box;  
+    -webkit-box-sizing: border-box; 
 }
