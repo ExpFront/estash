@@ -19,6 +19,7 @@
 @media (max-width: 900px) {
 	.p-testimonials {
 		min-height: 152px;
+		max-height: 152px;
 	}
 }
 
